@@ -1,0 +1,7 @@
+#!/usr/bin/python2
+
+import os
+import sys
+
+os.system("java -jar Mars4_5.jar " + sys.argv[1] +" dump .text HexText " + sys.argv[1][:-2]+".x")
+instructions[i][0]
